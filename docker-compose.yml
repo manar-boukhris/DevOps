@@ -15,7 +15,7 @@ services:
   app-timesheet:
     depends_on:
       - mysqlDb
-    image: boukhrismanar/timesheet-devops:1.0.0
+    image: boukhrismanar/kaddem:0.0.1
     restart: on-failure
     ports:
       - 8089:8089
